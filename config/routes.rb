@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'home/about'
+  root 'home#about'
 
   get 'home/index'
 
